@@ -1,0 +1,13 @@
+.btn {
+  display: block;
+  border: none;
+  outline: none;
+  background: var(--primary-color);
+  padding: 0.5rem 2rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Button.module.css.map */

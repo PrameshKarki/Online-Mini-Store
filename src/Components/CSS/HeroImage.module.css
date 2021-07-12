@@ -1,0 +1,14 @@
+.hero-image-container {
+  width: 50rem;
+  height: 50rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.hero-image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=HeroImage.module.css.map */

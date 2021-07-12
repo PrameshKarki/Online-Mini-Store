@@ -1,0 +1,31 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  font-family: Poppins-Regular;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+:root {
+  --primary-color:rgb(56, 56, 230);
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../assets/Font/Poppins-Regular.ttf");
+}
+/*# sourceMappingURL=index.css.map */

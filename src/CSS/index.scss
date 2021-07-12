@@ -1,0 +1,27 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    line-height: 1.4;
+    font-family:Poppins-Regular;
+}
+// *To Set 1rem=10px 
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+// *CSS Variables
+:root{
+ --primary-color:rgb(56, 56, 230);
+}
+
+body{
+    background-color:whitesmoke;
+    
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../assets/Font/Poppins-Regular.ttf");
+}

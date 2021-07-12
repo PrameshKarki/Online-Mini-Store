@@ -1,0 +1,29 @@
+.hero-text-container {
+  width: 50rem;
+}
+
+.hero-text-container h1 {
+  font-size: 4rem;
+}
+
+.hero-text-container p {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.hero-text-container p span {
+  color: var(--primary-color);
+}
+
+.hero-text-container p span:last-child {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+}
+
+.hero-text-container p span:last-child img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=HeroText.module.css.map */
