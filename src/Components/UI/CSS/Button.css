@@ -8,4 +8,11 @@
   width: 10rem;
   margin: 1rem auto;
 }
+
+.outline-btn {
+  background: none;
+  color: var(--primary-color);
+  border: 0.1rem solid var(--primary-color);
+  margin: 0 2rem;
+}
 /*# sourceMappingURL=Button.css.map */

@@ -1,0 +1,36 @@
+.cart-item{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+    margin: 1rem 0;
+    padding: 0.5rem;
+
+    border-bottom: 0.1rem solid var(--primary-color);
+}
+.details{
+    h3{
+        font-size: 2.2rem;
+    }
+    div{
+        width: 15rem;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        font-size:2rem;
+        .price{
+            font-weight: 600;
+
+        }
+        .quantity{
+            display: grid;
+            place-items: center;
+            background: whitesmoke;
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+}
+.controls{
+    display: flex;
+}

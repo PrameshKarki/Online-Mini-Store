@@ -4,7 +4,7 @@ import classes from "./CSS/HeroText.module.css";
 
 import Button from "../UI/Button";
 
-import NationalFlagOfNepal from "../assets/images/flag.gif";
+import NationalFlagOfNepal from "../../assets/images/flag.gif";
 
 const HeroText=props=>{
     return (

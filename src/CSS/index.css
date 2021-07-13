@@ -28,4 +28,34 @@ body {
   font-family: Poppins-Regular;
   src: url("../assets/Font/Poppins-Regular.ttf");
 }
+
+.header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background: white;
+  -webkit-box-shadow: 0 0.1rem 0.5rem -0.2rem rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.1rem 0.5rem -0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.main .flex-container {
+  width: 80%;
+  min-height: 65rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input.invalid {
+  border: 0.2rem solid #df1313 !important;
+}
 /*# sourceMappingURL=index.css.map */

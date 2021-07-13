@@ -4,17 +4,20 @@ import React from "react";
 import classes from "./CSS/Navigation.module.css";
 
 // *Import Components
-import CartButton from "./CartButton";
+import CartButton from "../Cart/CartButton";
+
+
 
 const Navigation=props=>{
-return(
+    
+    return(
     <nav>
         <div className={classes.navigation}>
             <div className={`${classes.logo} ${classes.navigation__item}`}>
                 <h1>MyShop</h1>
             </div>
             <div className={classes["cart-btn-container"]}>
-                <CartButton/>
+                <CartButton onClick={props.onShowCart}/>
             </div>
         </div>
     </nav>

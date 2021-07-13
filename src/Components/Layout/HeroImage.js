@@ -1,6 +1,6 @@
 import React from "react";
 
-import heroImage from "../assets/images/hero_image.png"
+import heroImage from "../../assets/images/hero_image.png";
 
 import classes from "./CSS/HeroImage.module.css";
 
