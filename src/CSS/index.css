@@ -58,4 +58,16 @@ body {
 input.invalid {
   border: 0.2rem solid #df1313 !important;
 }
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 58%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 55%;
+  }
+}
 /*# sourceMappingURL=index.css.map */

@@ -10,7 +10,8 @@
 .modal{
     position: fixed;
     top:15rem;
-    left:30%;
+    left:calc(50% - 35rem);
+    transform: translateX(-50%);
     width:60rem;
     background-color: white;
     padding: 1.5rem;
@@ -28,4 +29,12 @@
       opacity: 1;
       transform: translateY(0);
     }
+  }
+
+  @media screen and (max-width:996px) {
+    .modal{
+      left:3rem;
+      width: 90%;
+    }
+    
   }

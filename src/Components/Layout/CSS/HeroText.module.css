@@ -26,4 +26,27 @@
   max-height: 100%;
   height: auto;
 }
+
+.hero-btn {
+  width: 20rem;
+  margin-top: 5rem;
+  padding: 1rem 2rem;
+  display: block;
+  border: none;
+  outline: none;
+  background: var(--primary-color);
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-text-container {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=HeroText.module.css.map */

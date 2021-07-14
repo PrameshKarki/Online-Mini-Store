@@ -1,8 +1,4 @@
-.hero-btn{
-    width: 20rem;
-    margin-top: 5rem;
-    padding: 1rem 2rem;
-}
+
 .add-btn{
     width: 10rem;
     margin: 1rem auto;
@@ -12,4 +8,9 @@
     color:var(--primary-color); 
     border: 0.1rem solid var(--primary-color);
     margin:0 2rem;
+
+    &:hover{
+        background: var(--primary-color);
+        color:white;
+    }
 }

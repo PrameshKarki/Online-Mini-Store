@@ -50,3 +50,17 @@ body{
 input.invalid{
     border: 0.2rem solid rgb(223, 19, 19) !important;
 }
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 58%;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    html{
+        font-size: 55%;
+    }
+    
+}

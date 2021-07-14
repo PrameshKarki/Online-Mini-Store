@@ -4,7 +4,22 @@
 }
 
 .medium-card {
-  width: 60%;
+  width: 75rem;
   margin: 3rem auto 5rem auto;
+}
+
+@media screen and (max-width: 996px) {
+  .small-card {
+    width: 80%;
+  }
+  .medium-card {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .small-card {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=Card.css.map */

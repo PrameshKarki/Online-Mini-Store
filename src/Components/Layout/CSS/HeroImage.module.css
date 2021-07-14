@@ -11,4 +11,17 @@
   max-height: 100%;
   height: auto;
 }
+
+@media screen and (max-width: 996px) {
+  .hero-image-container {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero-image-container {
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=HeroImage.module.css.map */

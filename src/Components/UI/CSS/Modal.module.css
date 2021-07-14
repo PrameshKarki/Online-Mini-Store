@@ -11,7 +11,9 @@
 .modal {
   position: fixed;
   top: 15rem;
-  left: 30%;
+  left: calc(50% - 35rem);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   width: 60rem;
   background-color: white;
   padding: 1.5rem;
@@ -46,6 +48,13 @@
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .modal {
+    left: 3rem;
+    width: 90%;
   }
 }
 /*# sourceMappingURL=Modal.module.css.map */
