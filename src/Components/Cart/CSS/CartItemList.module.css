@@ -1,4 +1,6 @@
 .cart-items-list {
+  max-height: 40rem;
+  overflow-y: scroll;
   list-style: none;
 }
 /*# sourceMappingURL=CartItemList.module.css.map */

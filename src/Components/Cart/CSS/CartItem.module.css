@@ -31,10 +31,6 @@
   font-size: 2rem;
 }
 
-.details div .price {
-  font-weight: 600;
-}
-
 .details div .quantity {
   display: -ms-grid;
   display: grid;
@@ -48,5 +44,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.controls button {
+  margin: 0 0.5rem  !important;
+  border-radius: 0.1rem !important;
 }
 /*# sourceMappingURL=CartItem.module.css.map */

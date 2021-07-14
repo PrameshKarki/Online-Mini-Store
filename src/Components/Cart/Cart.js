@@ -19,7 +19,7 @@ const Cart = props => {
                  <span>${totalAmount}</span>
             </div>
             <div className={classes["actions-container"]}>
-                {hasItems && <Button>Order</Button>}
+                {hasItems && <Button onClick={cartCtx.placeOrder}>Order</Button>}
                 <Button className="outline-btn" onClick={props.onClose}>Close</Button>
             </div>
         </Modal>

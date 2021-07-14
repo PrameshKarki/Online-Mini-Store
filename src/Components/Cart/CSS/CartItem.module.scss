@@ -19,7 +19,6 @@
         align-items: center;
         font-size:2rem;
         .price{
-            font-weight: 600;
 
         }
         .quantity{
@@ -33,4 +32,8 @@
 }
 .controls{
     display: flex;
+    button{
+        margin:0 0.5rem  !important; 
+        border-radius: 0.1rem !important;
+    }
 }
