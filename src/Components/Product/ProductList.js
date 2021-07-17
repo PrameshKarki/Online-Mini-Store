@@ -9,21 +9,21 @@ import Card from "../UI/Card";
 const products = [
     {
         id: 1,
-        name: "IPhone 12",
-        description: "Most sell phone of 2021",
-        price: 12.22
+        name: "Nike Zoom KD 12",
+        description: "Men's Running Shoes",
+        price: 189.12
     },
     {
         id: 2,
-        name: "IPhone 11",
-        description: "Most sell phone of 2020",
-        price: 12
+        name: "Nike Air Max 2015",
+        description: "Performance Running Shoe",
+        price: 101.48
     },
     {
         id: 3,
-        name: "IPhone 10",
-        description: "Most sell phone of 2019",
-        price: 9
+        name: "Nike Hyperchase",
+        description: "Men's Basketball Shoe",
+        price: 112.32
     }
 ]
 
