@@ -1,12 +1,12 @@
 # Online Store
 
-Simple react app for online store.
+React app for mini online store.
 
 ## Screenshots
 
-<img src="./src/assets/screenshots/first.png" alt="screenshot" width="350">
+<img src="./public/assets/screenshots/first.png" alt="screenshot" width="350">
 <br>
-<img src="./src/assets/screenshots/second.png" alt="screenshot" width="350">
+<img src="./public/assets/screenshots/second.png" alt="screenshot" width="350">
 
 ## Available Scripts
 

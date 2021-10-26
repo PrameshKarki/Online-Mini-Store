@@ -5,7 +5,7 @@ import classes from "./CSS/CartButton.module.css";
 import CartIcon from "../UI/CartIcon";
 
 // *Import Context
-import CartContext from "../../store/cart-context";
+import CartContext from "../../Store/cart-context";
 
 const CartButton=props=>{
     const [isButtonHighlighted,setIsButtonHighlighted]=useState(false);

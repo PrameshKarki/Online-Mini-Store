@@ -26,7 +26,7 @@ body {
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url("../assets/Font/Poppins-Regular.ttf");
+  src: url("../Font/Poppins-Regular.ttf");
 }
 
 .header {

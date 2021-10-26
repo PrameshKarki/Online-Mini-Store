@@ -10,7 +10,7 @@ import HeroImage from "./Components/Layout/HeroImage";
 import Summary from "./Components/Layout/Summary";
 import ProductList from "./Components/Product/ProductList";
 import Cart from "./Components/Cart/Cart";
-import CartProvider from "./store/CartProvider";
+import CartProvider from "./Store/CartProvider";
 
 const App = () => {
     // *Manage state to show and hide cart
